@@ -1,10 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>My Simple Website</title>
-</head>
-<body>
-  <h1>Welcome to the Steve Torrens website!</h1>
-</body>
+<html>
+  <head>
+    <title>Pointless Square</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+    <link rel="stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    <link rel="stylesheet" href = "./main.css">
+    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+    <script src="pointless-square.js"></script>
+
+  </head>
+  
+  <body>
+    
+    <div class="header-section">
+      <div class="container">
+        <div class="row">       
+          <div class="twelve columns">
+            <h1 class="title">Square of Pointlessness</h1>
+          <!-- </div>
+          <div class="two columns"> -->
+          </div>
+        </div>
+      </div>     
+    </div>
+
+    <div class="main-section">   
+      <div class="container">
+        <div class="row">       
+          <div class="twelve columns" id = "canvas">
+            <div id="animate"></div>             
+          </div>
+        </div>
+      </div>                       
+    </div>
+
+    <div class="controls-section">
+      <div class="container">
+        <div class="row">
+          <div class="three columns">
+            <h2 class="button-label">Speed</h2>
+            <div class="controler">
+              <button class="speed button-primary">+</button>
+              <button class="speed button">-</button>              
+            </div>
+          </div>
+          <div class="three columns">
+            <h2 class="button-label">Size</h2>
+            <div class="controler">
+              <button class="size button-primary">+</button>
+              <button class="size button">-</button>              
+            </div>
+          </div>
+          <div class="three columns">
+            <h2 class="button-label">Position</h2>
+            <div class="controler">
+              <button class="height button-primary">+</button>
+              <button class="height button">-</button>              
+            </div>
+          </div>
+          <div class="three columns">
+            <h2 class="button-label">Colour</h2>            
+            <div class="controler">
+                <button class="colour button-primary">+</button>
+                <button class="colour button">-</button>            
+            </div>            
+          </div>    
+        </div>
+      </div>
+    </div> 
+
+  </body>
 </html>
